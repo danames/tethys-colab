@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load a Notebook from HydroShare into Google Colaboratory</title>
+</head>
+<body>
+<h2>Load a Resource from HydroShare into Google Colaboratory</h2>
+
+<h3>Request Information from HTTP Request</h3>
+<ul>
+    <li> The request path is: {{ path }}</li>
+    <li> The request method is: {{ method }}</li>
+    <li> The QueryDict is: {{ query }}</li>
+    <li> The Resource ID (res_id) in the query_string is: {{res_id}}</li>
+</ul>
+
+<h3>Resource Information from HydroShare API</h3>
+<ul>
+    <li>The Resource Title is: {{resource_title}} </li>
+    <li>The files in this resource include: {{resource_files}}</li>
+</ul>
+
+
+</body>
+</html>
